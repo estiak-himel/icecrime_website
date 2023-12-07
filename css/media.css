@@ -1,0 +1,90 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    .navbar-nav {
+        gap: 0;
+        text-align: center;
+        color: rgb(226, 224, 221);
+    }
+    .navbar-collapse {
+        border-radius: 10px;
+        background: rgb(208, 164, 219);
+    }
+    * {
+        color: aliceblue;
+        text-align: center;
+
+    }
+        .menuicon1 {
+            padding: 0;
+
+            
+        }
+        .menuicon2 {
+            padding:0;
+        }
+
+        .underline {
+            width: 95%;
+            margin-top: 64px;
+            margin-bottom: 20px;
+        }
+
+        .bannarwrite h1 {
+            color: #000;
+            font-family: 'Montagu Slab', serif;
+            font-size: 44px;
+            font-weight: 400;
+            line-height: 54px;
+            margin-top: 0px;
+            margin-bottom: 20px;
+        }
+        .bannarwrite p {
+            font-size: 13px;
+            line-height: 21px;
+            margin-bottom: 21px;
+            padding-right: 0px;
+        }
+
+        .orderbannar {
+            padding: 10px 17px;
+            font-size: 12px;
+        }
+
+        .bannarimgs {
+            height: 300px;
+            margin-top: 20px;
+        }
+
+        #shippingpart {
+            padding: 0px 0;
+        }
+        #choicepart {
+            padding: 0px 0;
+        }
+
+
+        .choiceleft p {
+            font-size: 13px;
+            font-weight: 400;
+            padding-right: 1px;
+            margin-bottom: 30px;
+        }
+
+  }
+
+
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {  }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { }
